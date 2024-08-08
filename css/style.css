@@ -1146,12 +1146,6 @@ li {
 	margin-bottom: 20px;
 }
 
-.menu-footer__list {
-}
-
-.menu-footer__item {
-}
-
 .menu-footer__item:not(:last-child) {
 	margin-bottom: 16px;
 }
@@ -1162,12 +1156,6 @@ li {
 
 .menu-footer__link:hover {
 	text-decoration: underline;
-}
-
-.body-footer__social {
-}
-
-.social-footer {
 }
 
 .social-footer__title {
@@ -1183,6 +1171,10 @@ li {
 	display: flex;
 	gap: 30px;
 	align-items: center;
+}
+
+.social-footer__item {
+	cursor: pointer;
 }
 
 .footer__copy {
